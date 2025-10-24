@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(https://fonts.google.com/specimen/Archivo+Black);
+
+body {
+	margin: 0;
+	background-color: gray;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	flex-direction: column;
+
+}
+
+
+
+.naslov {
+	 font-family: "Archivio Black", sans-serif;
+	 color: whitesmoke;
+	 height: 100%;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	font-size: 50px;
+	font-style: italic;
+	
+}
+
+.tekst1 {
+	font-size: 24px;
+	font-family: "Archivio Black", sans-serif;
+	color: lavender;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
