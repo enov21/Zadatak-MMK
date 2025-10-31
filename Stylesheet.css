@@ -31,10 +31,22 @@ body {
 	font-weight: bold;
 }
 
-.liste{
+#lista1{
 	font-size: 16px;
 	font-family: "Archivo Black", sans-serif;
 	color: #d5d5d5;
+	list-style: circle;
+	
+	
+	
+	
+}
+
+#lista2{
+	font-size: 16px;
+	font-family: "Archivo Black", sans-serif;
+	color: #d5d5d5;
+	
 	
 	
 	
