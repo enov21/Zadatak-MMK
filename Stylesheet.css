@@ -4,18 +4,18 @@
 @import url(https://fonts.google.com/specimen/Archivo+Black);
 
 body {
-	margin: 0;
-	background-color: gray;
-	justify-content: center;
+	margin: 0 ; 
+	background-color: #d5d5d5;
 	padding-top: 20px;
+
 
 }
 
 
 
 .naslov {
-	 font-family: "Archivio Black", sans-serif;
-	 color: whitesmoke;
+	 font-family: "Archivo Black", sans-serif;
+	 color: #244064;
 	 display: flex;
 	 justify-content: center;
 	font-size: 50px;
@@ -25,13 +25,61 @@ body {
 
 .tekst1 {
 	font-size: 24px;
-	font-family: "Archivio Black", sans-serif;
-	color: lavender;
+	font-family: "Archivo Black", sans-serif;
+	color: #4b9fd3;
 	text-align: center;
 	font-weight: bold;
 }
 
+.liste{
+	font-size: 16px;
+	font-family: "Archivo Black", sans-serif;
+	color: #d5d5d5;
+	
+	
+	
+}
 
 
+.sve {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 35%;
+	margin: 0 auto;
+}
 
 
+#ul1, #sub1, #ol1 {
+	display: flex;
+	width: 150px;
+	height: 150px;
+	background-color: #1c1c1a;
+	align-items: center;
+	
+	
+	
+	
+	
+
+
+}
+
+
+#tekst2 {
+	
+	font-size: 36px;
+	font-family: "Archivo Black", sans-serif;
+	color: #d5d5d5;
+	margin: 0 auto;
+
+}
+
+.tekst3 {
+	
+	font-size: 16px;
+	font-family: "Archivo Black", sans-serif;
+	color: #d5d5d5;
+	margin: 0 auto;
+
+}
