@@ -95,3 +95,39 @@ body {
 	margin: 0 auto;
 
 }
+
+#login {
+
+	display: flex;
+	height: auto;
+	width: 200px;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 0px 20px 0px;
+	
+	margin: 0 auto;
+}
+
+#field{
+	background-color: #1c1c1a;
+	border: none;
+}
+
+.tekst3 {
+	color: #d5d5d5;
+	font-family: "Archivo Black", sans-serif;
+
+
+}
+
+#prijava {
+	background-color: #d5d5d5;
+	color: #1c1c1a;
+	font-family: "Archivo Black", sans-serif;	
+
+}
+
+#prijavise {
+	color: #1c1c1a;
+	font-family: "Archivo Black", sans-serif;
+}

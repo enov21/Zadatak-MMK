@@ -44,6 +44,47 @@
 
 </div>
 
+<div id="login">
+
+	<form action="#" method="post">
+
+  <fieldset id="field">
+    
+    <legend id="prijava">Prijava</legend>
+
+    <label for="email" class="tekst3">Email adresa:</label><br>
+    <input type="email" id="email" name="email" placeholder="ime@primjer.com"><br><br>
+
+    <label for="korisnik" class="tekst3">Korisničko ime:</label><br>
+    <input type="text" id="korisnik" name="korisnik" placeholder="Korisničko ime"><br><br>
+
+    <label for="godine" class="tekst3">Godine:</label><br>
+    <input type="number" id="godine" name="godine" value="18"><br><br>
+
+    <label for="spol" class="tekst3">Spol:</label><br>
+    <select id="spol" name="spol">
+      <option value="m">Muško</option>
+      <option value="ž">Žensko</option>
+      <option value="o">Ostalo</option>
+    </select><br><br>
+
+    <label for="grad" class="tekst3">Grad:</label><br>
+    <input list="gradovi" id="grad" name="grad" placeholder="Grad">
+    <datalist id="gradovi">
+      <option value="Umag">
+      <option value="Zagreb">
+    </datalist><br><br>
+
+    <label for="lozinka" class="tekst3">Lozinka:</label><br>
+    <input type="password" id="lozinka" name="lozinka" placeholder="Lozinka"><br><br>
+
+    <button type="submit" value="Prijavi se" id="prijavise">Prijavi se</button>
+  </fieldset>
+
+</form>
+
+</div>
+
 
 	
 </body>
