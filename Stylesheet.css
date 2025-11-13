@@ -131,3 +131,33 @@ body {
 	color: #1c1c1a;
 	font-family: "Archivo Black", sans-serif;
 }
+
+table {
+	width: 40%;
+  margin: 20px auto;
+  border-collapse: separate;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px#1c1c1a;
+  padding: 6px;
+  height: 15px;
+}
+
+thead th {
+  background-color: #1c1c1a;
+}
+
+.dinamo,.hajduk,.nebitni {
+	background-color: #1c1c1a;
+
+}
+
+.tablicatekst {
+	font-family: "Archivo Black", sans-serif;
+	color: #d5d5d5;
+	text-align: center;
+}
+
