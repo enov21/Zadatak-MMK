@@ -7,7 +7,79 @@ body {
 	margin: 0 ; 
 	background-color: #d5d5d5;
 	padding-top: 20px;
+}
 
+
+
+.sve ul li {
+    margin: 2px 0; 
+}
+
+
+
+#login form > fieldset {
+    padding: 20px; 
+
+}
+
+
+
+
+table thead th {
+    vertical-align: middle; 
+
+}
+
+
+
+
+input[type="email"] {
+    border: 2px solid #d5d5d5;
+
+}
+
+
+
+input[placeholder] {
+    background-color: #e6e6e6;
+
+}
+
+
+select[name="spol"] {
+    border: 2px solid #d5d5d5;
+
+}
+
+
+
+#prijavise {
+    position: relative; 
+    top: 0;
+    left: 0;
+
+}
+
+
+
+#ul1 {
+    float: left; 
+
+}
+
+
+
+#ol1 {
+    float: right; 
+}
+
+
+
+
+.sve::after {
+    content: "";
+    display: block;
+    clear: both; 
 
 }
 
@@ -20,8 +92,10 @@ body {
 	 justify-content: center;
 	font-size: 50px;
 	font-style: italic;
-	
 }
+
+
+
 
 .tekst1 {
 	font-size: 24px;
@@ -29,29 +103,25 @@ body {
 	color: #4b9fd3;
 	text-align: center;
 	font-weight: bold;
+
 }
+
+
+
 
 #lista1{
 	font-size: 16px;
 	font-family: "Archivo Black", sans-serif;
 	color: #d5d5d5;
 	list-style: circle;
-	
-	
-	
-	
+
 }
 
 #lista2{
 	font-size: 16px;
 	font-family: "Archivo Black", sans-serif;
 	color: #d5d5d5;
-	
-	
-	
-	
 }
-
 
 .sve {
 	display: flex;
@@ -61,64 +131,49 @@ body {
 	margin: 0 auto;
 }
 
-
 #ul1, #sub1, #ol1 {
 	display: flex;
 	width: 150px;
 	height: 150px;
 	background-color: #1c1c1a;
 	align-items: center;
-	
-	
-	
-	
-	
-
-
 }
 
-
 #tekst2 {
-	
 	font-size: 36px;
 	font-family: "Archivo Black", sans-serif;
 	color: #d5d5d5;
 	margin: 0 auto;
-
 }
 
 .tekst3 {
-	
-	font-size: 16px;
-	font-family: "Archivo Black", sans-serif;
 	color: #d5d5d5;
-	margin: 0 auto;
+	font-family: "Archivo Black", sans-serif;
 
 }
 
-#login {
 
+#login {
 	display: flex;
 	height: auto;
 	width: 200px;
 	align-items: center;
 	justify-content: center;
 	padding: 20px 0px 20px 0px;
-	
 	margin: 0 auto;
+
 }
+
+
 
 #field{
 	background-color: #1c1c1a;
 	border: none;
-}
-
-.tekst3 {
-	color: #d5d5d5;
-	font-family: "Archivo Black", sans-serif;
 
 
 }
+
+
 
 #prijava {
 	background-color: #d5d5d5;
@@ -127,37 +182,59 @@ body {
 
 }
 
-#prijavise {
-	color: #1c1c1a;
-	font-family: "Archivo Black", sans-serif;
-}
-
 table {
 	width: 40%;
-  margin: 20px auto;
-  border-collapse: separate;
-  border-radius: 20px;
-  overflow: hidden;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-radius: 20px;
+    overflow: hidden;
 }
+
 
 th, td {
-  border: 1px#1c1c1a;
-  padding: 6px;
-  height: 15px;
+    padding: 6px;
+    height: 15px;
 }
 
+
 thead th {
-  background-color: #1c1c1a;
+    background-color: #1c1c1a;
 }
+
 
 .dinamo,.hajduk,.nebitni {
 	background-color: #1c1c1a;
-
 }
+
+
 
 .tablicatekst {
 	font-family: "Archivo Black", sans-serif;
 	color: #d5d5d5;
 	text-align: center;
 }
+
+
+@media (max-width: 700px) {
+
+    .sve {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #ul1, #sub1, #ol1 {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    iframe {
+        width: 90%;
+        height: auto;
+    }
+}
+
 
