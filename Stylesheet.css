@@ -9,81 +9,49 @@ body {
 	padding-top: 20px;
 }
 
-
-
 .sve ul li {
     margin: 2px 0; 
 }
 
-
-
 #login form > fieldset {
     padding: 20px; 
-
 }
-
-
-
 
 table thead th {
     vertical-align: middle; 
-
 }
-
-
-
 
 input[type="email"] {
     border: 2px solid #d5d5d5;
-
 }
-
-
 
 input[placeholder] {
     background-color: #e6e6e6;
-
 }
-
 
 select[name="spol"] {
     border: 2px solid #d5d5d5;
-
 }
-
-
 
 #prijavise {
     position: relative; 
     top: 0;
     left: 0;
-
 }
-
-
 
 #ul1 {
     float: left; 
-
 }
-
-
 
 #ol1 {
     float: right; 
 }
 
-
-
-
 .sve::after {
     content: "";
     display: block;
     clear: both; 
-
 }
-
-
 
 .naslov {
 	 font-family: "Archivo Black", sans-serif;
@@ -94,27 +62,19 @@ select[name="spol"] {
 	font-style: italic;
 }
 
-
-
-
 .tekst1 {
 	font-size: 24px;
 	font-family: "Archivo Black", sans-serif;
 	color: #4b9fd3;
 	text-align: center;
 	font-weight: bold;
-
 }
-
-
-
 
 #lista1{
 	font-size: 16px;
 	font-family: "Archivo Black", sans-serif;
 	color: #d5d5d5;
 	list-style: circle;
-
 }
 
 #lista2{
@@ -149,9 +109,7 @@ select[name="spol"] {
 .tekst3 {
 	color: #d5d5d5;
 	font-family: "Archivo Black", sans-serif;
-
 }
-
 
 #login {
 	display: flex;
@@ -161,25 +119,17 @@ select[name="spol"] {
 	justify-content: center;
 	padding: 20px 0px 20px 0px;
 	margin: 0 auto;
-
 }
-
-
 
 #field{
 	background-color: #1c1c1a;
 	border: none;
-
-
 }
-
-
 
 #prijava {
 	background-color: #d5d5d5;
 	color: #1c1c1a;
 	font-family: "Archivo Black", sans-serif;	
-
 }
 
 table {
@@ -190,30 +140,24 @@ table {
     overflow: hidden;
 }
 
-
 th, td {
     padding: 6px;
     height: 15px;
 }
 
-
 thead th {
     background-color: #1c1c1a;
 }
 
-
 .dinamo,.hajduk,.nebitni {
 	background-color: #1c1c1a;
 }
-
-
 
 .tablicatekst {
 	font-family: "Archivo Black", sans-serif;
 	color: #d5d5d5;
 	text-align: center;
 }
-
 
 @media (max-width: 700px) {
 
@@ -236,6 +180,65 @@ thead th {
         height: auto;
 		margin-bottom: 20px;
     }
+}
+
+
+
+a, button, input, select, #ul1, #sub1, #ol1, table {
+  transition: transform 200ms ease, box-shadow 200ms ease, filter 200ms ease, background-color 200ms ease;
+}
+
+#mediji a.tekst1{
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background-color: #1c1c1a;
+}
+
+#mediji a.tekst1:hover{
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 10px 18px rgba(0,0,0,0.18);
+}
+
+#mediji a.tekst1:active{
+  transform: scale(0.97);
+}
+
+#ul1:hover, #sub1:hover, #ol1:hover{
+  transform: scale(1.05);
+  box-shadow: 0 12px 22px rgba(0,0,0,0.22);
+}
+
+#field input:focus,
+#field select:focus{
+  outline: none;
+  border-color: #d5d5d5;
+  box-shadow: 0 0 0 4px rgba(75,159,211,0.35);
+  transform: translateY(-1px);
+}
+
+#prijavise{
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #d5d5d5;
+  color: #1c1c1a;
+  cursor: pointer;
+}
+
+#prijavise:hover{
+  transform: translateY(-2px);
+}
+
+#prijavise:active{
+  transform: scale(0.97);
+}
+
+
+table tbody tr:hover{
+  transform: scale(1.01);
 }
 
 
